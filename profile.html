@@ -1,12 +1,14 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>Ru-Me Roommate Finder</title>
+		<title>Ru-Me | Edit Profile</title>
+		<meta charset="UTF-8"/>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
 		<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet"/>
 		<link href="stylesheets/styles.css" rel="stylesheet"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	</head>
-	<body>
+	<body class="dark">
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
 			<a class="navbar-brand mx-auto" href="index.html">
 				<img src="images/Ru-Me-small.png" width=40px height=40px/>Ru-Me
@@ -22,14 +24,12 @@
 					<li class="nav-item">
 						<a class="nav-link" href="browse.html">Browse</a>
 					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="profile.html">Profile</a>
+					<li class="nav-item">
+						<a class="nav-link active" href="profile.html">Profile</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
-
-		
 		<div class="text-page">
 			<h2>Profile</h2>
 			<h3>Basics<span> (1 person)</span></h3>
@@ -37,7 +37,7 @@
 				<p>Name<input/></p>
 				<p>Gender
 					<select>
-						<option></option>
+						<option> </option>
 						<option>Male</option>
 						<option>Female</option>
 					</select>
@@ -80,7 +80,7 @@
 			</div>
 	
 			<h3>Partying</h3>
-			<div>
+			<div class="box-options">
 				<label for="party1"><input type="radio" id="party1" name="party" checked/><span>The more, the merrier!</span></label><br>
 				<label for="party2"><input type="radio" id="party2" name="party"/><span>Home is where the friends are.</span></label><br>
 				<label for="party3"><input type="radio" id="party3" name="party"/><span>My house is my sanctuary.</span></label>
