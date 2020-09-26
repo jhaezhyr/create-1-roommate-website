@@ -142,6 +142,7 @@ button {
 	background-color: var(--control-color1);
 	text-align: center;
 	margin-right: 5px;
+	color: var(--light-color);
 }
 
 .byu {
@@ -227,7 +228,7 @@ button {
 	flex-direction: column;
 	min-height: calc(100% - 350px);
 	padding: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .requests-inbox a,
@@ -284,6 +285,15 @@ button {
 
 svg {
 	filter: invert(100%)
+}
+
+.aux-info {
+	text-align: right;
+	float: right;
+}
+
+.forward-directing {
+	text-align: right;
 }
 
 @media only screen and (min-width: 600px) {
